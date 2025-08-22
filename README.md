@@ -32,7 +32,7 @@ Here are some of the projects you’ll find in this repo:
 ## ✨ Connect with Me
 - [LinkedIn](www.linkedin.com/in/aseka-kalansooriya-a0569427b)  
 - [GitHub](https://github.com/aseka-dev)  
-- [Portfolio Website](#) _(if available)_  
+- [Portfolio Website](#)  
 
 ---
 
