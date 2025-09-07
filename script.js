@@ -106,35 +106,7 @@ document.querySelectorAll('.cert-card').forEach(card => {
     observer.observe(card);
 });
 
-// Form submission handling
-const contactForm = document.querySelector('.contact-form');
-if (contactForm) {
-    contactForm.addEventListener('submit', function(e) {
-        e.preventDefault();
-        
-        // Get form data
-        const formData = new FormData(this);
-        const name = formData.get('name');
-        const email = formData.get('email');
-        const subject = formData.get('subject');
-        const message = formData.get('message');
-        
-        // Simple validation
-        if (!name || !email || !subject || !message) {
-            showNotification('Please fill in all fields', 'error');
-            return;
-        }
-        
-        if (!isValidEmail(email)) {
-            showNotification('Please enter a valid email address', 'error');
-            return;
-        }
-        
-        // Simulate form submission (replace with actual form handling)
-        showNotification('Message sent successfully! I\'ll get back to you soon.', 'success');
-        this.reset();
-    });
-}
+
 
 // Email validation function
 function isValidEmail(email) {
